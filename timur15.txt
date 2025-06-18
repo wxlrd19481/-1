@@ -1,0 +1,122 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расписание занятий | timur</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f7fa;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c5282;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #4a5568;
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #4299e1;
+            color: white;
+            font-weight: 600;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #ebf8ff;
+        }
+        
+        .nav-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #48bb78;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .nav-link:hover {
+            background-color: #38a169;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Расписание занятий</h1>
+        <p class="subtitle">Занятия на вторник</p>
+        
+        <table>
+            <tr>
+                <th>Урок</th>
+                <th>5 "А"</th>
+                <th>5 "Б"</th>
+                <th>5 "В"</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>русский язык</td>
+                <td>история</td>
+                <td>литература</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>математика</td>
+                <td>информатика</td>
+                <td>физкультура</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>история</td>
+                <td>физкультура</td>
+                <td>математика</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>физкультура</td>
+                <td>литература</td>
+                <td>русский язык</td>
+            </tr>
+        </table>
+        
+        <p style="text-align: center;">
+            <a href='timur07.html' class="nav-link">Перейти к расписанию 5 класса</a>
+        </p>
+    </div>
+</body>
+</html>
